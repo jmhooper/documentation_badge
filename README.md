@@ -1,5 +1,7 @@
 # Documentation Badge
 
+[![Documentation badge](http://documentation-badge.jonathanhooper.net/jmhooper/documentation_badge/badge.svg)](https://github.com/jmhooper/documentation_badge/labels/documentation)
+
 This app provides GitHub README badges that display the number of open issues in a repo that have the label "documentation". The goal of this is to help maintainers keep an eye on doc rot in their repos.
 
 A badge for a repo is made available at the `/:ower/:repo/badge.svg` path.
