@@ -109,5 +109,4 @@ typings/
 .env
 
 # Ignore bundled assets
-public/*
-!public/index.html
+public/bundle.js
