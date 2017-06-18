@@ -1,4 +1,4 @@
-# Documentatin Badge
+# Documentation Badge
 
 This app provides GitHub README badges that display the number of open issues in a repo that have the label "documentation". The goal of this is to help maintainers keep an eye on doc rot in their repos.
 
