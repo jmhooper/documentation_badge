@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "test": "echo \"Use rspec to run the tests :)\n\" && exit 1"
+    "test": "echo \"Use rspec to run the tests :)\n\" && exit 1",
+    "heroku-postbuild": "bin/build"
   },
   "author": "Jonathan Hooper",
   "license": "MIT",
