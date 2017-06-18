@@ -38,6 +38,8 @@ class GenerateBadge extends React.Component {
   render() {
     return (
       <div>
+        <h2>Generate a Badge</h2>
+        <p>Generate the markdown for a badge with this handy form.</p>
         <Form onSubmit={(owner, repo) => this.formSubmitted(owner, repo)} />
         {this.renderMarkdownPreview()}
         {this.renderBadge()}
