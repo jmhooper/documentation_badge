@@ -1,0 +1,2 @@
+scss_files: 'assets/sass/**/*.scss'
+exclude: 'node_modules/'

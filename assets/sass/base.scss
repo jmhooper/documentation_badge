@@ -1,0 +1,22 @@
+@import 'variables';
+
+html {
+  color: $dark-text-color;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  align-items: center;
+  background-color: $light-gray-color;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  background-color: $white-color;
+  border: 1px solid $gray-color;
+  margin: 2rem 0;
+  max-width: 55rem;
+  padding: 2rem;
+}

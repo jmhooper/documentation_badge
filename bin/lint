@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Run Rubocop
+echo "Rubocop"
+echo "-------"
+bundle exec rubocop
+
+# Run SCSS Lint
+echo "SCSS Lint"
+echo "---------"
+bundle exec scss-lint
+
+# Run ESLint
+echo "ESLint"
+echo "------"
+yarn run eslint assets/**/*.js assets/**/*.jsx

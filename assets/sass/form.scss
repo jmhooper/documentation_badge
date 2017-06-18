@@ -1,0 +1,27 @@
+@import 'variables';
+
+label {
+  display: block;
+}
+
+input {
+  border: 1px solid $gray-color;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+input[type='text'] {
+  margin: .5rem 0;
+  padding: .5rem .7rem;
+}
+
+input[type='submit'] {
+  background-color: $white-color;
+  display: block;
+  margin: .5rem 0;
+  padding: .7rem 1rem;
+}
+
+input[type='submit']:hover {
+  background-color: darken($white-color, 5);
+}
