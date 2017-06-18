@@ -12,9 +12,9 @@ const About = () => (
     </p>
     <p>
       <a
-        href="https://github.com/koajs/koa/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation"
+        href="https://github.com/jmhooper/documentation_badge/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation"
       >
-        <img src="/koajs/koa/badge.svg" alt="Documentation Badge" />
+        <img src="/jmhooper/documentation_badge/badge.svg" alt="Documentation Badge" />
       </a>
     </p>
     <p>
