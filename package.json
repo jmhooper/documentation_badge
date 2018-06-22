@@ -7,7 +7,9 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "test": "echo \"Use rspec to run the tests :)\n\" && exit 1",
-    "heroku-postbuild": "bin/build"
+    "heroku-postbuild": "bin/build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Jonathan Hooper",
   "license": "MIT",
@@ -28,10 +30,12 @@
     "react-dom": "^15.6.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "snyk": "^1.83.0"
   },
   "engines": {
     "node": "6.x.x",
     "npm": "3.x.x"
-  }
+  },
+  "snyk": true
 }
